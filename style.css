@@ -1,0 +1,49 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+header{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+body{
+    background-color: #ff8b3c;
+}
+
+.borda{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centralizar{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner{
+    height: 250px;
+    width: 250px;
+    background-color: #FFB887;
+    margin-top: 50px;
+    border-radius: 13px;
+    margin-bottom: 100px;
+}
+
+.mascote{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.mensagemBanner{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -90px;
+    font-size: 20px;
+}
